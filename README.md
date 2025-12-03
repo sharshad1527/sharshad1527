@@ -1,7 +1,5 @@
 # 👋 Hey, I'm Harshad Sundar  
 
-### 🚀 Aspiring Cybersecurity Analyst | Blue Team Learner → Future Red Teamer  
-
 I'm an 18-year-old self-taught cybersecurity learner building real-world skills through hands-on projects, free labs, and public documentation.  
 Currently focused on **SOC operations**, **Linux**, and **Network Security Fundamentals** — while learning to move towards **Ethical Hacking And Red Teaming**.
 
