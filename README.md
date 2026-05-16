@@ -1,45 +1,49 @@
-# 👋 Hey, I'm Harshad Sundar  
+## SYSTEMS BUILDER & AUTOMATION ENGINEER
 
-I'm an 18-year-old self-taught cybersecurity learner building real-world skills through hands-on projects, free labs, and public documentation.  
-Currently focused on **SOC operations**, **Linux**, and **Network Security Fundamentals** — while learning to move towards **Ethical Hacking And Red Teaming**.
-
----
-
-### 🧰 What I'm Working On
-- Completing the **Google Cybersecurity Certificate (Coursera)**  
-- Learning via **Cisco NetAcad CyberOps / Ethical Hacking courses**  
-- Building and publishing **practical security tools** (Python + Bash)  
-- Documenting my learning in my GitHub portfolio  
+**Bridging the gap between AI-assisted development and core computer science fundamentals.** I am a self-taught developer focused on **Python architecture**, **headless automation**, and **application security**. I learn by reverse-engineering software, optimizing complex systems, and building desktop tools from the ground up to solve my own workflow bottlenecks.
 
 ---
 
-### 📦 Featured Projects
-| Project | Description | Technologies |
-|----------|--------------|---------------|
-| [DailySelfie](https://github.com/sharshad1527/DailySelfie) | Automation app that captures one photo per day, organizes by date, and logs activity | Python, OpenCV, Tkinter |
-| [Log Analyzer](#) *(coming soon)* | Parses Linux auth logs, detects failed SSH logins, outputs summary reports | Python |
-| [SSH Hardener](#) *(coming soon)* | Automates secure SSH configuration and logs every action | Bash, Linux |
-| [Cyber Portfolio](https://github.com/sharshad1527/cyber-portfolio) | Collection of writeups, learning journals, and security projects | Markdown, Python, Networking |
+### 🧰 CURRENT EXECUTION
+
+* **H.I.V.E NextGen (In Development):** Architecting a non-linear video editor (NLE) with a custom timeline. Currently focused on building a stable PyAV-based preview renderer and optimizing PySide6 UI responsiveness before engineering the final export pipeline.
+* **Academic Fundamentals:** Completing my 12th NIOS (Computer Science focus) while actively studying system architecture and core software engineering principles.
 
 ---
 
-### 🧠 Current Learning Path
-- **Linux & Networking Fundamentals** — mastering core system commands  
-- **Log Analysis & SIEM Basics** — understanding threat detection workflows  
-- **TryHackMe / OverTheWire** — building attack & defense understanding  
-- **Python Automation for Security** — scripting tools for blue team tasks  
+### 📦 ENGINEERING HISTORY
+
+#### Phase 4: The Systems Architect (2025–Present)
+**H.A.V.E Pro Automator**
+* Built a PySide6-based GUI automation tool to handle bulk media processing.
+* Engineered a highly stable rendering queue capable of processing 250+ media assets per session.
+* Automated local Whisper transcription, cutting, and captioning, eliminating 20+ hours of manual editing per week.
+
+**Daily Selfie (v1 & v2)**
+* **v1:** Built initial prototype using standard Tkinter.
+* **v2:** Re-architected in PySide6. Developed a custom theming engine that parses JSON exports from Google's Material Theme Builder to dynamically apply comprehensive Material Design themes across the entire desktop application.
+
+#### Phase 3: Software Deconstruction (2024)
+**Reverse Engineering & Protocol Analysis**
+* Deconstructed compiled software to understand execution flow, memory management, and licensing protocols. 
+* Studied how application restrictions are built and bypassed, forming a strong foundational understanding of application security.
+
+#### Phase 2: Linux Infrastructure (2023)
+**OS Deployment & Web Security**
+* Developed a unified bash script to automate the complex installation, initialization, and status monitoring of Waydroid (Android container layer on Linux).
+* Conducted self-directed studies into Web Application Security, utilizing tools like Burp Suite to understand OWASP Top 10 vulnerabilities.
+* Extensive deep-dives into Linux environments, package management, and system customization.
+
+#### Phase 1: The App & OS Tinkerer (2019–2022)
+**Early Software Development**
+* **Desktop Automation:** Built a custom Python voice assistant integrating `pyautogui` for desktop GUI automation and OpenCV for facial recognition.
+* **Android Chat Application:** Developed a fully functional chat application featuring live voice/video calls and message reactions, utilizing Java and Firebase.
 
 ---
 
-### 🏆 Goals
-- Land a **SOC Analyst / Junior Security Analyst** role by 2027  
-- Contribute to open-source security tools  
-- Transition into **Offensive Security (Red Team)** within 2–3 years  
+### 🛠️ TECHNICAL ARSENAL
 
----
-
-### 🌐 Find Me Online
-- LinkedIn: [linkedin.com/in/sharshad1527](https://www.linkedin.com/in/sharshad1527)
----
-
-**"Consistency beats talent — I build every day."**
+* **Languages:** Python, Bash, Java (Historical)
+* **Frameworks:** PySide6, PyAV, OpenCV, FFmpeg
+* **Architecture:** GUI Automation, Dynamic JSON Theming, Reverse Engineering
+* **Environments:** Deeply comfortable in Linux
