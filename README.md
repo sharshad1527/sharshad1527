@@ -13,15 +13,19 @@
 
 ### 📦 ENGINEERING HISTORY
 
-#### Phase 4: The Systems Architect (2025–Present)
-**H.A.V.E Pro Automator**
-* Built a PySide6-based GUI automation tool to handle bulk media processing.
-* Engineered a highly stable rendering queue capable of processing 250+ media assets per session.
-* Automated local Whisper transcription, cutting, and captioning, eliminating 20+ hours of manual editing per week.
+#### Phase 4: The Systems Architect (2025–2026)
 
-**Daily Selfie (v1 & v2)**
+**Autonomous Media Pipeline & H.A.V.E. Pro (Jan–May 2026)**
+
+* **Impact:** Replaced a 20+ hours manual video production workflow with a Python-based pipeline, reducing human input strictly to curation and quality control.
+* **Network Mocking:** Built a local Python mock-server to intercept a DOM-automator's API, ensuring a stable, rate-limit-free bulk image-generation workflow.
+* **Data-to-Render Engine:** Engineered a PySide6 visual bridge (*ExpressoSort*) to map raw assets to script lines via CSV. This feeds *H.A.V.E. Pro*—a custom matrix using local Whisper NLP for audio-syncing and multi-threaded FFmpeg for final assembly.
+* ➡️ **[Read the full Systems Architecture Deep-Dive](HAVE_AUTONOMOUS_PIPELINE.md)**
+
+**Daily Selfie (v1 & v2) (2025)**
+
 * **v1:** Built initial prototype using standard Tkinter.
-* **v2:** Re-architected in PySide6. Developed a custom theming engine that parses JSON exports from Google's Material Theme Builder to dynamically apply comprehensive Material Design themes across the entire desktop application.
+* **v2:** Re-architected in PySide6. Developed a custom theming engine that parses JSON exports from Google's Material Theme Builder to dynamically apply comprehensive Material Design themes (utilizing dark modes with purple accents) across the desktop application.
 
 #### Phase 3: Software Deconstruction (2024)
 **Reverse Engineering & Protocol Analysis**
