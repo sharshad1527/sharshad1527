@@ -6,7 +6,8 @@
 
 ### 🧰 CURRENT EXECUTION
 
-* **H.I.V.E NextGen (In Development):** Architecting a non-linear video editor (NLE) with a custom timeline. Currently focused on building a stable PyAV-based preview renderer and optimizing PySide6 UI responsiveness before engineering the final export pipeline.
+* **Flow NextGen Extension (Active):** Acting as Systems Architect to design and direct the build of a commercial task-queue and automation browser extension. Managing multi-module context and system design (Vite, React, TypeScript) using generative models as high-level compilers.
+* **H.I.V.E NextGen (Paused):** Custom PySide6 NLE video editor development is temporarily paused to prioritize browser automation execution and commercial launch.
 * **Academic Fundamentals:** Completing my 12th NIOS (Computer Science focus) while actively studying system architecture and core software engineering principles.
 
 ---
@@ -14,6 +15,13 @@
 ### 📦 ENGINEERING HISTORY
 
 #### Phase 4: The Systems Architect (2025–2026)
+
+**Flow NextGen: Headless Task Automation Engine & Extension (Jun–Jul 2026)**
+
+* **Multi-Context Architecture:** Designed and built an MV3 Chrome Extension (React/TypeScript) utilizing a structured communication pipeline between user interface views, background controllers, and content scripts.
+* **Protocol Analysis & Interception:** Reverse-engineered target application network telemetry to programmatically harvest active session headers and track asynchronous task states natively.
+* **Kernel-Level Input Emulation:** Implemented a Chrome DevTools Protocol (`chrome.debugger`) client to dispatch native hardware keyboard scan codes and mouse pointer sequences, successfully bypassing React synthetic event blocks and anti-bot filters.
+* **Securing Telemetry & Quota States:** Applied web application security testing principles to audit client-side network requests, identifying a vulnerability where database quota limits could be bypassed, and re-architecting the telemetry ledger to process securely in a background worker.
 
 **Autonomous Media Pipeline & H.A.V.E. Pro (Jan–May 2026)**
 
@@ -47,7 +55,7 @@
 
 ### 🛠️ TECHNICAL ARSENAL
 
-* **Languages:** Python, Bash, Java (Historical)
-* **Frameworks:** PySide6, PyAV, OpenCV, FFmpeg
-* **Architecture:** GUI Automation, Dynamic JSON Theming, Reverse Engineering
-* **Environments:** Deeply comfortable in Linux
+* **Languages:** Python, TypeScript (Orchestrated), Bash, Java (Historical)
+* **Frameworks & Libraries:** React, PySide6, Zustand, PyAV, OpenCV, FFmpeg
+* **Architecture:** Chrome Extension MV3, CDP (Chrome DevTools Protocol), Network Protocol Interception, GUI Automation, Reverse Engineering
+* **Environments:** Windows, Linux
