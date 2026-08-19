@@ -53,6 +53,12 @@
 
 ---
 
+### Certifications & Practical Labs
+
+* **TryHackMe Advent of Cyber 2025** — Completed 24 hands-on cybersecurity challenges across web exploitation, network forensics, and defensive security (Certificate ID: `THM-2BGHUQRNUB`).
+  
+---
+
 ### Technical Arsenal
 
 * **Languages:** Python, TypeScript (Orchestrated), Bash, Java (Historical)
