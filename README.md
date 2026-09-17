@@ -6,9 +6,9 @@
 
 ### Current Execution
 
-* **Flow NextGen Extension (Active):** Acting as Systems Architect to design and direct the build of a commercial task-queue and automation browser extension.. Managing multi-module context and system design (Vite, React, TypeScript) using generative models as high-level compilers.. this one can bring me passive money so I paused other things.
-* **H.I.V.E NextGen (Paused):** Custom PySide6 NLE video editor development is temporarily paused to prioritize browser automation execution and commercial launch.
-* **Academic Fundamentals:** Completing my 12th NIOS (Computer Science focus) while actively studying system architecture and core software engineering principles..
+* **Flow NextGen (Live on Chrome Web Store):** Maintaining and scaling my browser automation extension for Google Flow.. Focus is on user feedback, bug fixing, and adding requested workflow features..
+* **H.I.V.E NextGen (Paused):** Custom PySide6 video editor development is on hold for now..
+* **Studies & Security Labs:** Completing 12th NIOS (Computer Science) while spending time on web application security, ethical hacking labs, and low-level system design..
 
 ---
 
@@ -16,12 +16,13 @@
 
 #### Phase 4: The Systems Architect (2025–2026)
 
-**Flow NextGen: Headless Task Automation Engine & Extension (Jun–Jul 2026)**
+**Flow NextGen: Bulk Queue & Workflow Automation Extension (Jun–Sep 2026)**  
+* **Chrome Web Store:** [Install Extension](https://chromewebstore.google.com/detail/flow-nextgen/jolnapkhihjecpgideikgpkhgfkbeagp) · **Website:** [flownextgen.netlify.app](https://flownextgen.netlify.app)
 
-* **Multi-Context Architecture:** Designed and built an MV3 Chrome Extension in React and TypeScript, using a structured communication pipeline to share data and exchange messages between user interface, background controllers, and content scripts..
-* **Protocol Analysis & Interception:** Reverse-engineered target application network telemetry to programmatically harvest active session headers and track asynchronous task states natively.. I got it all from network tab and understanding what its doing..
-* **Kernel-Level Input Emulation:** Implemented a Chrome DevTools Protocol (`chrome.debugger`) client to dispatch native hardware keyboard scan codes and mouse pointer sequences.. It bypasses React synthetic event blocks and anti-bot filters where AI thinking was too dum..
-* **Securing Telemetry & Quota States:** Applied web application security testing principles to audit client-side network requests.. I found a vulnerability where database quota limits could be bypassed by sending database update commands from the console, so I patched Supabase's access policies to keep our database secure.. First time using these skills in my real app..
+* **Multi-Context Architecture:** Built an MV3 Chrome extension using React and TypeScript.. The Sidepanel UI, Background Service Worker, and Page scripts talk through a custom typed JSON bridge so state stays synced without race conditions..
+* **Protocol Reverse-Engineering:** Google Flow has no public API, and automating the UI directly was too brittle.. I used the Network tab, Console probing, and proxy tools to reverse-engineer their private batch RPC requests and streaming response chunks.. Built a custom parser so the extension talks directly to Google's backend to dispatch prompts and extract direct signed media URLs..
+* **Bulk Queue & Auto-Download:** Built an automated task engine that can queue 100+ prompts, poll async generation states in the background, and auto-download finished images and videos with custom naming templates so users don't have to save files one by one..
+* **Security & Quotas:** Tested the app from an attacker's perspective and found a vulnerability where a user could bypass generation limits by sending database updates straight from DevTools console.. I locked it down by writing custom Supabase Row Level Security (RLS) policies and atomic database functions so quota checks are enforced entirely on the backend.. First time applying practical web security to my own live product.
 
 **Autonomous Media Pipeline & H.A.V.E. Pro (Jan–May 2026)**
 
