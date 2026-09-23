@@ -31,6 +31,12 @@
 * **Data-to-Render Engine:** Engineered a PySide6 visual bridge (*ExpressoSort*) to map raw assets to script lines via CSV.. This feeds *H.A.V.E. Pro*—a custom matrix using local Whisper NLP for audio-syncing and multi-threaded FFmpeg for final assembly..
 * ➡️ **[Read the full Systems Architecture Deep-Dive](HAVE_AUTONOMOUS_PIPELINE.md)**
 
+**Adversarial AI Test Harness & Middleware (Archived Lab · Mar 2026)**
+
+* **The Experiment:** An exploratory weekend lab where I guided AI to build a lightweight Python middleware.. I wanted to study how open-weight LLMs handle guardrails, but got tired of manually testing prompts and tweaking parameters by hand, so I designed the pipeline to automate the whole loop..
+* **Deflection Logic:** Designed Regex heuristics (`RefusalDetector` & `RelevanceChecker`) to catch when a model dodges a question or gives fake generic advice instead of a direct answer..
+* **Adaptive Retry Engine:** Set up multi-pass prompt reframing and temperature variance on retries, letting the script run structured batch tests unattended without manual intervention..
+
 **Daily Selfie (v1 & v2) (2025)**
 
 * **v1:** Built initial prototype using standard Tkinter..
